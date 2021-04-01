@@ -26,7 +26,7 @@
 }
 .timeline-wrapper h2 {
   background: url(../images/timeline_century_tick.gif) left center no-repeat;
-  font-family: Palatino, "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   font-size: 3em;
   font-weight: 400;
@@ -71,10 +71,10 @@
   margin-left: 0;
 }
 .timeline-series dt a .open {
-  color: #7DBADF;
+  color: #FAE255;
 }
 .timeline-series dt a:hover {
-  color: #7DBADF;
+  color: #FAE255;
 }
 .timeline-series dd {
   padding-left: 24px;
@@ -135,10 +135,10 @@
 }
 .timeline-event-content .media a:link,
 .timeline-event-content .media a:visited {
-  color: #ab221b;
+  color: #990000;
 }
 .timeline-event-content .media a:hover {
-  color: #7DBADF;
+  color: #e70000;
 }
 .clear {
   clear: both;

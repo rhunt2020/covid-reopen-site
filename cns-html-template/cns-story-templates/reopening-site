@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>CNS News story template</title>
+  <meta name="description" content="Merrill College of Journalism, UMD">
+  <meta name="author" content="CNS Maryland">
+
+  <!-- our CSS  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://technotarek.com/timeliner/timeliner.html" />
+  <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="inc/colorbox.css" type="text/css" media="screen">
+
+  <!-- c3.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.13/c3.min.css" rel="stylesheet">
+
+  <!-- d3.js and c3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.13/c3.min.js"></script>
+
+<!-- timeliner -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Timeliner.js Demo</title>
+  <link rel="canonical" href="https://technotarek.com/timeliner/timeliner.html" />
+  <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="inc/colorbox.css" type="text/css" media="screen">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+  <!--Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@cnsmaryland">
+  <meta name="twitter:title" content="Trading Away Justice">
+  <meta name="twitter:description" content="Why do defendants plead guilty to crimes they didn't commit?">
+  <meta name="twitter:creator" content="@cnsmaryland">
+  <meta name="twitter:image" content="http://cnsmaryland.org/interactives/spring-2018/plea-bargain/assets/main-social.png" />
+
+  <!--Facebook OpenGraph-->
+  <meta property="og:title" content="Trading Away Justice">
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://cnsmaryland.org/interactives/spring-2018/plea-bargain/index.html">
+  <meta property="og:description" content="Why do defendants plead guilty to crimes they didn't commit?">
+  <meta property="og:image" content="http://cnsmaryland.org/interactives/spring-2018/plea-bargain/assets/main-social.png" />
+  <meta property="og:site_name" content="CNS Maryland">
+  <meta property="fb:app_id" content="209502139105366" />
+
+  <!-- METRICS -->
+  <meta name="parsely-title" content="Add title" />
+  <meta name="parsely-link" content="Add link" />
+  <meta name="parsely-type" content="post" />
+  <meta name="parsely-pub-date" content="Add date" />
+  <meta name="parsely-section" content="Investigations" />
+  <meta name="parsely-author" content="CNS Maryland" />
+  <meta name="parsely-tags" content="crime, investigative journalism, interactives" />
+
+</head>
+
+<body>
+
+
+<!-- GLOBAL CORE SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="inc/colorbox.js"></script>
+<script type="text/javascript" src="js/timeliner.js"></script>
+<script>
+  $(document).ready(function() {
+    $.timeliner({});
+    $.timeliner({
+      timelineContainer: '#timeline-js',
+      timelineSectionMarker: '.milestone',
+      oneOpen: true,
+      startState: 'flat',
+      expandAllText: '+ Show All',
+      collapseAllText: '- Hide All'
+    });
+    // Colorbox Modal
+    $(".CBmodal").colorbox({inline:true, initialWidth:100, maxWidth:682, initialHeight:100, transition:"elastic",speed:750});
+  });
+</script>
+
+</body>
+</html>

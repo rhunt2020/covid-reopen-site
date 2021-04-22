@@ -5,7 +5,7 @@ html {
 
 BODY {
   font-family: 'Source Serif Pro', serif;
-  font-size:1em;
+  font-size:1em !important;
 }
 
 .container {

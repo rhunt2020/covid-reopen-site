@@ -23,6 +23,7 @@
   float: left;
   margin: 0 0 12px;
   width: 900px;
+  text-align: left !important;
 }
 .timeline-wrapper h2 {
   background: url(../images/timeline_century_tick.gif) left center no-repeat;
@@ -50,6 +51,7 @@
   padding: 4px 4px 4px 0;
   position: relative;
   width: 880px;
+  text-align: left !important;
 }
 .timeline-series dt {
   background: url(../images/timeline_decade_tick.gif) left center no-repeat;
